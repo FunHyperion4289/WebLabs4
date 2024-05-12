@@ -8,14 +8,14 @@
 <head>
     <?php
         $page_title = 'About us - WebLabs';
-        require("./includes/head.php");
+        require("../includes/head.php");
     ?>
 </head>
 
 <body>
     <?php
         $curPage = "about";
-        require("./includes/header.php")
+    require("../includes/header.php")
     ?>
 
     <main class="container">
@@ -30,7 +30,7 @@
     </main>
 
     <?php
-        include("./includes/footer.php");
+        include("../includes/footer.php");
     ?>
 </body>
 

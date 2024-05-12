@@ -26,17 +26,17 @@ $curPage = "articlePage";
 <html lang="en">
 
 <head>
-    <?php require("./includes/head.php"); ?>
+    <?php require("../includes/head.php"); ?>
 </head>
 
 <body>
-<?php include("./includes/header.php")?>
+<?php include("../includes/header.php") ?>
 
 <main class="container">
-    <?php require './includes/articles.php'; ?>
+    <?php require '../includes/articles.php'; ?>
 </main>
 
-<?php include("./includes/footer.php") ?>
+<?php include("../includes/footer.php") ?>
 </body>
 
 </html>
